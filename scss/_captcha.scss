@@ -1,0 +1,42 @@
+/* captcha */
+.captcha_wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.captcha_wrap .captcha_box {
+    display: table-cell;
+    position: relative;
+    height: 100%;
+}
+.captcha_wrap .captcha_box_img {
+    width: 20%;
+    min-width: 100px;
+    padding: 15px;
+    padding-right: 25px;
+    background: #000;
+    background-image: url("/manager/common/img/captcha_bg.png");
+    color: #fff;
+    text-align: center;
+}
+.captcha_wrap .input_text_wrap {
+    height: 100% !important;
+}
+.captcha_wrap .input_text_wrap label input {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.captcha_wrap .input_text_wrap label input:focus {
+    box-shadow: none;
+}
+.captcha_wrap i {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}

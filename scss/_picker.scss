@@ -1,0 +1,87 @@
+/* daterangepicker */
+.daterangepicker.dropdown-menu {
+    padding: 20px !important;
+    padding-bottom: 50px !important;
+}
+.daterangepicker.dropdown-menu .list_button {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 15px !important;
+}
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+    background-color: #fdd000 !important;
+    border-color: #fdd000 !important;
+    color: #000 !important;
+}
+
+.daterangepicker.show-calendar .calendar.left {
+    padding-right: 10px;
+}
+.daterangepicker.show-calendar .calendar.right {
+    padding-left: 10px;
+}
+.daterangepicker.single {
+    padding-bottom: 20px !important;
+}
+.daterangepicker.single .ranges,
+.daterangepicker.single .calendar {
+    padding-right: 0 !important;
+    border-right: 0 !important;
+}
+
+.daterangepicker .calendar-table {
+    padding: 0 !important;
+}
+.daterangepicker .ranges .btn {
+    padding: 15px !important;
+}
+.daterangepicker .ranges .active .btn {
+    background: #f1f1f1 !important;
+}
+.daterangepicker .daterangepicker_input {
+    padding: 0 !important;
+    margin-bottom: 15px;
+}
+.daterangepicker .range_inputs {
+    padding: 0 !important;
+}
+
+.radio_event_box_wrap .radio_event_box {
+    margin-top: 15px;
+}
+.radio_disabled_box_wrap .radio_disabled_box {
+    margin-top: 15px;
+}
+
+/* md_picker */
+.mdtimepicker {
+    background: none !important;
+}
+.mdtp__wrapper {
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.mdtp__wrapper[data-theme="blue"] .mdtp__time_holder {
+    background-color: #fdd000 !important;
+    color: #000 !important;
+}
+.mdtp__time_holder .mdtp__time_h.active,
+.mdtp__time_holder .mdtp__time_m.active {
+    color: #000 !important;
+}
+.mdtp__wrapper[data-theme="blue"] .mdtp__digit.active span,
+.mdtp__wrapper[data-theme="blue"] .mdtp__clock .mdtp__digit span:hover {
+    background-color: #fdd000 !important;
+    color: #000 !important;
+}
+.mdtp__wrapper[data-theme="blue"] .mdtp__digit.active:before {
+    background-color: #fdd000 !important;
+}
+.mdtp__wrapper[data-theme="blue"] .mdtp__clock .mdtp__clock_dot {
+    background-color: #fdd000 !important;
+}
+.mdtp__wrapper[data-theme="blue"] .mdtp__clock .mdtp__am.active,
+.mdtp__wrapper[data-theme="blue"] .mdtp__clock .mdtp__pm.active {
+    background-color: #fdd000 !important;
+    color: #000 !important;
+}

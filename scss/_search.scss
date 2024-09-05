@@ -1,0 +1,41 @@
+/* search_icon */
+.search_icon {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.search_icon .bar {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+.search_icon .bar::before,
+.search_icon .bar::after {
+    content: "";
+    position: absolute;
+    display: block;
+    transition: all 0.1s;
+}
+.search_icon .bar::before {
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: -2px;
+    top: -2px;
+}
+.search_icon .bar::after {
+    height: 2px;
+    width: 8px;
+    background: #000;
+    border-radius: 100px;
+    top: 15px;
+    left: 12px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

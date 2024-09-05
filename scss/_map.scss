@@ -1,0 +1,194 @@
+/* map */
+.map_search_wrap {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    left: 5%;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.modal_box_map_search .map_search_wrap {
+    position: relative;
+    max-width: 100%;
+    box-shadow: inherit;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.map_search_wrap .cont_text_wrap {
+    margin: 0;
+}
+.map_search_wrap .cont_text_box {
+    padding: 20px;
+}
+
+.map_search_wrap .map_search_tab_wrap {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+    background: #1c1c1b;
+    color: #fff;
+}
+.map_search_wrap .map_search_tab_wrap ul {
+    display: table;
+    width: 100%;
+}
+.map_search_wrap .map_search_tab_wrap ul li {
+    display: table-cell;
+    cursor: pointer;
+    padding: 15px 0;
+}
+.map_search_wrap .map_search_tab_wrap ul li.check {
+    background: #fdd000;
+    color: #1c1c1b;
+}
+.map_search_wrap .map_search_title_wrap {
+    background: #fdd000;
+    margin-bottom: 0;
+    text-align: center;
+}
+.map_search_wrap .input_text_wrap label input {
+    box-shadow: inherit;
+}
+
+.map_search .cont_list2 > ul > li {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.map_search .cont_list2 > ul > li:hover {
+    text-decoration: underline;
+}
+.map_search .cont_list2 > ul > li.check {
+    background: #f4f6f8;
+}
+
+.map_search .cont_list {
+    height: 300px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.map_search .cont_list1 > ul {
+}
+.map_search .cont_list1 > ul > li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0px;
+}
+.map_search .cont_list1 > ul > li:first-child {
+    padding-top: 0;
+}
+.map_search .cont_list1 > ul > li:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.store_search_list_none {
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+}
+
+.map_point_info_wrap {
+    background: #fff;
+    padding: 20px;
+    font-size: 14px;
+    box-shadow: 0px 0px 0px 1px rgb(118, 129, 168);
+    width: 200px;
+}
+.map_point_info {
+}
+.map_point_info_list > ul {
+    display: table;
+    width: 100%;
+}
+.map_point_info_list > ul > li {
+    display: inline-block;
+    margin-top: 10px;
+    width: 25%;
+    float: left;
+}
+.map_point_info_list > ul > li:nth-child(-n + 4) {
+    margin-top: 0;
+}
+.map_point_info_list .N {
+    display: none;
+}
+.map_point_info_title_wrap {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+.map_point_info_title_wrap .cell {
+    vertical-align: top;
+}
+.map_point_info_title_wrap .cell:first-child {
+    width: 20px;
+}
+
+.map_marker {
+    text-align: center;
+    max-width: 200px;
+    -webkit-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+}
+.map_marker .map_marker_img img {
+    width: 100%;
+}
+.map_marker .map_marker_title {
+    font-size: 13px;
+}
+
+.map_marker_logo {
+    width: 120px;
+    text-align: center;
+}
+.map_marker_logo_text {
+    font-size: 12px;
+}
+.map_marker_logo_img img {
+    width: 100%;
+}
+
+.store_detail_info_list > ul {
+    display: table;
+    width: 100%;
+}
+.store_detail_info_list > ul > li {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin-bottom: 10px;
+}
+.store_detail_info_list .N {
+    display: none;
+}
+
+.store_detail .cont_text {
+    margin: 10px 0;
+}
+.store_detail .cont_text:first-child {
+    margin-top: 0;
+}
+.store_detail .cont_text:last-child {
+    margin-bottom: 0;
+}
+.store_detail .table_info {
+    padding: 20px;
+    background: #f4f6f8;
+    font-size: 13px;
+}
+.store_detail .table_info table th {
+    width: 75px;
+}

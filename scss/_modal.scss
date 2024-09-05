@@ -1,0 +1,239 @@
+/* modal */
+.modal_open {
+    cursor: pointer;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+.modal-dialog {
+    width: 80% !important;
+    position: absolute;
+    padding: 13% 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.modal-dialog_480 {
+    max-width: 480px;
+}
+.modal-dialog_720 {
+    max-width: 720px;
+}
+.modal-dialog_1024 {
+    max-width: 1024px;
+}
+.modal-content {
+    border: 0;
+    background: #fff;
+}
+.modal-open {
+    padding-right: 0 !important;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal-open .modal2 {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    background: #1c1c1b;
+    opacity: 0.5;
+}
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+
+.modal_box {
+    padding: 20px;
+}
+.modal_box textarea {
+    width: 100%;
+    font-size: 12px;
+    max-height: 40vh;
+    line-height: 1.8;
+    font-family: sans-serif;
+}
+.modal_tab_box {
+    border-top: 1px solid #e0e0e0;
+}
+.modal_box_scroll {
+    position: relative;
+    overflow: auto;
+    height: 50vh;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+.modal_writie_wrap .modal_box .cell:first-child {
+    width: 15%;
+}
+
+.modal_title_wrap {
+    background: #fff;
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 0 !important;
+}
+.modal_title {
+    position: relative;
+}
+.modal_title_img {
+    text-align: center;
+}
+.modal_title_img img {
+    max-width: 150px;
+}
+.modal_title .close_wrap .close:before,
+.modal_title .close_wrap .close:after {
+    background: #1c1c1b;
+}
+.modal_title .modal_title_info {
+    display: inline-block;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.modal_stitle {
+    font-size: 15px;
+    padding: 10px 0;
+}
+.modal_text_box {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+.modal_text {
+    font-size: 13px;
+    margin: 15px 0;
+}
+.modal_text:first-child {
+    margin-top: 0;
+}
+.modal_text:last-child {
+    margin-bottom: 0;
+}
+.modal_text ul {
+    border: 0;
+}
+.modal_text ul li {
+    margin-bottom: 5px;
+    border-top: 0;
+}
+.modal_text ul li:last-child {
+    margin-bottom: 0;
+}
+
+.modal_bt {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+.modal_bt ul {
+    display: table;
+    width: 100%;
+    border: 0;
+}
+.modal_bt ul li {
+    border: 0;
+    display: inline-block;
+    margin-right: 10px;
+}
+.modal_bt ul li:last-child {
+    margin-right: 0;
+}
+.modal_bt input {
+    font-size: 15px;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.modal_img {
+}
+.modal_img img {
+    width: 100%;
+}
+.modal_info {
+    color: rgba(0, 0, 0, 0.5);
+}
+.modal_info ul {
+    border: 0;
+}
+.modal_info ul li {
+    margin: 10px 0;
+    border-top: 0;
+}
+.modal_info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.inner_modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background: #f4f6f8;
+    cursor: auto;
+    display: none;
+    z-index: 2;
+    font-size: 14px;
+}
+.inner_modal .inner_modal_title {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+.inner_modal .inner_modal_title .cont_text_title {
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.inner_modal .inner_modal_title .close_wrap {
+    top: 0;
+    right: 0;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.inner_modal .inner_modal_title .close_wrap .close:before,
+.inner_modal .inner_modal_title .close_wrap .close:after {
+    background: #1c1c1b;
+}
+.inner_modal .cont_text_box {
+    padding: 10%;
+    margin-bottom: 0 !important;
+    background: #fff !important;
+}
+.inner_modal .cont_list {
+    background: #f4f6f8;
+    padding: 10%;
+    font-size: 0.9em;
+}
+.section_menu .inner_modal {
+    min-height: 100%;
+}
+.section_menu .swiper-slide .inner_modal {
+    opacity: 0 !important;
+}
+.section_menu .swiper-slide-active .inner_modal {
+    opacity: 1 !important;
+}
